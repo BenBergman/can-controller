@@ -1,5 +1,11 @@
 UMSAE Formula Hybrid CAN Bus Controller Arduino Shield
 
-This Arduino shield was based on a design from the previous year's car. The PCB was designed as a prototype board that could also be deployed in the car, so there are some optional part included. For example, there are three solder jumpers included in case the resistors listed are not needed. There is also room for headers to be installed for many of the unused Arduino pins for any additional hardware that might be used later. In addition to these extras, many of the parts on the board are not strictly necessary for the board to function. For example, the LEDs and their resistors are just to show that things are working and may be left out. There is also an SOT23 part (NUP2105L, labelled U3) that is there for over-voltage protection. This part was one of the addition made to this years design after the high voltage battery pack of the car shorted out last years CAN bus.
+This Arduino shield was based on a design from the previous year's car. The PCB was designed as a prototype board that could also be deployed in the car, so there are some optional part included. For example, there are three solder jumpers included in case the resistors listed are not needed. There is also room for headers to be installed for many of the unused Arduino pins for any additional hardware that might be used later.
+
+In addition to these extras, many of the parts on the board are not strictly necessary for the board to function. For example, the LEDs and their resistors are just to show that things are working and may be left out. There is also an SOT23 part (NUP2105L, labelled U3) that is there for over-voltage protection. This part was one of the addition made to this years design after the high voltage battery pack of the car shorted out last years CAN bus.
+
+The gEDA suite of tools was used to produce these files (http://www.gpleda.org/index.html). It is a free and open source EDA suite with many useful features. There is a vendor file included for use with the PCB editor called "pcb", included with the suite.
 
 Unless otherwise specified, all included files are CC-BY-SA (http://creativecommons.org/licenses/by-sa/3.0/). Circuit is based on work by Mike Sefton and example schematics from the ELM327 data sheet.
+
+-Benjamin Bergman
