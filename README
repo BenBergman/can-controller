@@ -6,6 +6,8 @@ In addition to these extras, many of the parts on the board are not strictly nec
 
 The gEDA suite of tools was used to produce these files (http://www.gpleda.org/index.html). It is a free and open source EDA suite with many useful features. There is a vendor file included for use with the PCB editor called "pcb", included with the suite.
 
+Our firmware can be found here: https://github.com/BenBergman/canshield
+
 Unless otherwise specified, all included files are CC-BY-SA (http://creativecommons.org/licenses/by-sa/3.0/). Circuit is based on work by Mike Sefton and example schematics from the ELM327 data sheet.
 
 -Benjamin Bergman
