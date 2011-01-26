@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Tue Jan 25 14:27:33 2011
+# date:    Wed Jan 26 06:42:15 2011
 # user:    ben (Benjamin Bergman)
 # host:    macbookben.local
 
@@ -8,7 +8,7 @@ FileVersion[20100606]
 
 PCB["" 210000 280000]
 
-Grid[5000.000000 0 0 1]
+Grid[1000.000000 0 0 1]
 Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
@@ -1588,6 +1588,18 @@ Element["" "jumper" "" "" 175000 250000 -2500 -12250 0 100 ""]
 	ElementArc [-3000 -1250 4000 4000 270 90 1000]
 
 	)
+
+Element["" "Jumper, i.e. single row headers" "" "JUMPER1" 25000 130000 11000 -5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
+	ElementLine [5000 5000 5000 -5000 1000]
+	ElementLine [-5000 5000 5000 5000 1000]
+	ElementLine [5000 -5000 -5000 -5000 1000]
+	ElementLine [5000 5000 5000 -5000 1000]
+	ElementLine [-5000 5000 5000 5000 1000]
+	ElementLine [-5000 -5000 -5000 5000 1000]
+
+	)
 Rat[62716 135000 1 205000 275000 0  "via"]
 Layer(1 "component")
 (
@@ -1789,6 +1801,7 @@ Layer(10 "silk")
 	Text[201000 23000 0 232 "-" "clearline"]
 	Text[201000 63000 0 232 "-" "clearline"]
 	Text[73000 163000 0 232 "-" "clearline"]
+	Text[37000 125000 3 100 "RST" "clearline"]
 )
 NetList()
 (
